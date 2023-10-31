@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "SELECT * FROM tarjetas_historial th INNER JOIN tarjetas t ON th.ID_TARJETA = t.ID_TARJETA WHERE th.ID_TARJETA =  ('{{id_pago}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_moneda"],
+            "valoresEsperados": [["9999", "32"]]
+        }
+    ]
+}

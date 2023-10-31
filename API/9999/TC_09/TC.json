@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select ID_ENTIDAD, ID_PRODUCTO, ID_ESTADO_TIPO, ID_MARCA from cuentas where id_cuenta = ('{{id_cuenta}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_PRODUCTO", "ID_ESTADO_TIPO", "ID_MARCA"],
+            "valoresEsperados": [["9999", "1", "101", "2"]]
+        }
+    ]
+}

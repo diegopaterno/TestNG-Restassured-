@@ -1,0 +1,163 @@
+{
+
+    "Entidad": 9999,
+
+    "Forzada": "0", // (in_forzar)
+
+    "Origen": "12", //(in_id_origen)
+
+    "Red": 1, // 1=MasterCard - 10=MasterCard Adquirente - 20=Red entidades (in_id_tipo_red)
+
+    "MTI": "0100", // MTI (0100 Compra MC  - 0200 Compra Entidades - 0420 Reverso Entidades - 0400 Reverso MC - 0190 Acuse Negativo) (in_tipo_mensaje)
+
+    "DE2": "5522681341261779", // Nro de tarjeta (in_nro_tarjeta)
+
+    "DE3": "000000", // Tipo de mensaje de acción MC=00-Compra 01-Adelanto - 20 Devolucion - 30 Consulta de saldo - 00 Consulta Estado Cuenta + D4,D5,D6 = 000000000000 (in_cod_procesamiento)
+
+    "DE4": "00000000200", //Monto (in_importe_operacion)
+
+    "DE5": "00000000200", //Monto Liquidación (in_importe_liquidacion)
+
+    "DE6": "00000000200", //Monto Facturación (in_importe_emisor)
+
+    "DE7": "1015100735", // Funciona como request ID MMDDHHMMSS (in_fecha_hora_transmision)
+
+    "DE10": "70798722", // Tasa de conversión de factura de socio (IN_TASA_EMISOR)
+
+    "DE11": "131912", // ID de transacción (STAN=System Trace Audit Number) (in_nro_trace)
+
+    "DE12": "160000", // Hora local de transacción (hhmmss) (in_hora_local)
+
+    "DE13": "0920", // Fecha de transacción Local (MMDD) (in_fecha_local)
+
+    "DE14": "2504", // Fecha de VTO de la tarjeta (YYMM) (in_fecha_vto_tarjeta)
+
+    "DE15": "0920", // Fecha de liquidación (MMDD) (IN_FECHA_LIQUIDACION)
+
+    "DE16": "0920", // Fecha de conversion, fija la fecha efectiva de los DEs 9 y 10 (MMDD)(IN_FECHA_CONVERSION)
+
+    "DE17": null,
+
+    "DE18": "4899", // MCC - 5311 - 4899 Servicios Digitales (in_mcc)   - 7996 (Para que active Sentinel)
+
+    //"DE19": "000", Campo para Autorizador VISA - Acquiring Institution Country Code 
+
+    "DE20": "032", // Código de país del Nro de Tarjeta (IN_COD_MONEDA_OPERACION)
+
+    "DE22": "810", // POS 01 - Manual, 02 - Banda Magnética, 90 - Lector de código de barra, 05 - Chip, 81 - e-commerce, 10 - Credencial en archivo, 82 - Por medio de servidor - 07 Contacless (in_modo_ingreso_terminal)
+
+    "DE23": null, // (in_nro_secuencia_tarjeta)
+
+    //"DE25": Campo para Autorizador VISA - POS Condition Code 
+
+    "DE26": null, // I|D personal PIN (in_cod_captura_pin_terminal)
+
+    "DE28": null, //(in_importe_cargo_transaccion)
+
+    "DE32": "019353", // ICA (IN_ICA)
+
+    "DE33": "019353", // ICA (IN_ICA_REENVIO)
+
+    "DE35": "5522681341261779D250410101100100", // Track 2 - nro de tarjeta = vto de tarjeta + service_code +  secuencia(5) + CVC1 Banda Magnetica(3) + 5() - Este track se utiliza para compras por Banda y se utilizan datos para el Embozado
+
+    "DE37": "900213003000", // Número de referencia de recuperación (IN_NRO_REFER_RECUPERACION)- Para Devoluciones
+
+    "DE38": "null", // (in_cod_autorizacion)
+
+    "DE39": "00",
+
+    "DE41": "5230031", // ID de terminal del aceptador de tarjetas (IN_TERMINAL)
+
+    "DE42": "00000002", // ID del aceptador de tarjetas (IN_COD_COMERCIO_EXTERNO)
+
+    "DE43": "TIDAL MUSIC                          ARG", // Nombre de aceptador, todas las transacciones > SE 5 Codigo de pais (in_comercio_43)
+
+    //"DE44": Campo Autorizador VISA (Response Source/Reason Code)
+
+    //"DE45": "B{{NroTarjeta}}^HENRY TOPUMO^{{VtoTarjeta}}{{service_code}}084201239876800001", //Track 1: B+nro de tarjeta^nombre embozado ^vto de tarjeta + service_code(101) + CVC1 + números fijos
+
+    "DE48": "R9506ARGCTA", //"R61050000142070103210820252", //R61050000142070103210820252 cuota / T61050000142070103210820252 - SE 95 = ARGCTA (Para compras en cuotas) (IN_DATOS_ADICIONALES_048)
+
+    "DE49": "032", // Codigo de moneda, transacciones (IN_COD_MONEDA_OPERACION)
+
+    "DE50": "032", // Codigo de conversion de moneda (IN_COD_MONEDA_LIQUIDACION)
+
+    "DE51": "032", // Codigo de moneda de facturacion de socio (IN_COD_MONEDA_EMISOR)
+
+    "DE52": "12295170281C5847", //PIN encriptado
+
+    "DE53": null,
+
+    "DE54": "",
+
+    "DE55": "T", //ICC
+
+    //"DE59": Campo Autorizador VISA: (National POS Geographic Data)
+
+    "DE60": "120", //En Autorizador VISA: Terminal Type
+
+    "DE61": "000000000000003205000", //"000000000000003205000     ", 0004 - Debito automatico - 0000008 Consulta ASI - En Autorizador VISA: Other Amount, Transaction (IN_DATOS_PUNTO_SERVICIO)
+
+    "DE62": "02001319120000000513170202", ///Rervero Red Entidad - MTI+DE11+000000+DE13+DE12 - En Autorizador VISA: Field 62 Bitmap
+
+    "DE63": "MCC487649", // Datos de la Red - MCC011060 // Ultimos 4 digitos de tarjeta para cambio de PIN - Consulta = Ultimos4digi(4)+DNI(15)+YYYY(nacimiento)+numero de comicilio (5) 4163       35658151199100635 - En Autorizador VISA: Field 63 Bitmap
+
+    "DE90": "0100131912{{Time}}0000001935300000019353", //Reverso Red MC - MTIoriginal(4)+DE11(6)+DE7(10)+DE32(<    11)alineado a la derecha con 0s a la izq+DE33(11)alineado a la derecha con 0s a la izquierda - (in_datos_mensaje_original)
+
+    //"DE73": Campo Autorizador VISA: Date, Action
+
+    "DE95": "", //"000000000200000000000200000000000200000000",//Monto(12)+MontoInst(12)+MontoFact(12)+0fill(6) - Para reverso parcial - in_importe_reemplazo
+
+    //"DE100": Campo Autorizador VISA: Receiving Institution Identification Code
+
+    //"DE101": Campo Autorizador VISA: File Name
+
+    "DE102": null, //numero cuenta1 (in_nro_cuenta1)
+
+    "DE103": null, //numero cuenta2 (in_nro_cuenta2)
+
+    //"DE104": Campo Autorizador VISA:Usage 1-Transaction Description & Transaction-Specific Data
+
+    "DE108": null, //datos referencia de MoneySend
+
+    "DE112": "0010042000", // Datos adicionales de uso nacional ej cuotas - 0010042006 - Sub elemento 001 tiene 0004 posiciones de valor 2006. 20 = Financia emisor en 06 cuotas - 26 = Ahora 12 (IN_DATOS_ADICIONALES_112)
+
+    //"DE115": Campo Autorizador VISA: Additional Trace Data
+
+    //"DE117": Campo Autorizador VISA: National Use
+
+    //"DE118": Campo Autorizador VISA: Intra-Country Data
+
+    "DE120": null, //Datos registro
+
+    "DE121": null, //Cod proceso StandIn - Autorizador VISA: Issuing Institution Identification Code
+
+    //"DE123": Campo Autorizador VISA: Verification Data
+
+    "DE124": null, //Datos de miembro
+
+    "DE125": null, //Autorizador VISA: Supporting Information (uso 1)
+
+    //"DE126": Campo Autorizador VISA: Field 126 Bitmap
+
+    "DE127": null, //Datos de iniciador de mensaje
+
+    "cvcchip": "707", //CVC3
+
+    "inSENTINELStatus": 0, // 0: Rechazado - 1: Aprobado sin fraude - 2 Aprobado y fraude exceptuado - 3: Rechazado con CALL ME - (-1): Aprobada no consultada - (-2): Aprobada error al consultar - NULL: Procesar normalmente
+
+    "inSENTINELRules": "Ejemplo Reglas de Fraude",
+
+    "inSENTINELExceptionRules": "Ejemplo Reglas de Fraude",
+
+    "Offset": null, //Se compara con campo PIN_OFFSET de la tabla TARJETAS. Si no se informa se apruba la transaccion
+
+    "CVC2STATUS": "99", //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (CVC_BANDA_VALIDO)
+
+    "CVC1STATUS": "99", //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (CVC_EMBOZADO_VALIDO)
+
+    "CvcChipValido": "1", //1= válido 0= Inválido
+
+    "EMVSTATUS": "99" //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (EMV_VALIDO) = ARQC
+
+}

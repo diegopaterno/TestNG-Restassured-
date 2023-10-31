@@ -1,0 +1,101 @@
+{
+ 
+  "Nombre": "TARJETA VIRTUAL",
+ 
+  "Apellido": "AUTOMATIZACION",
+ 
+  "Email": "mauroa.ramirez@globalprocessing.com.ar",
+ 
+  "Sexo": "M",
+ 
+  "FechaNacimiento": "1988-08-29",
+ 
+  "IdCuentaExterna": "",
+ 
+  "SucursalEmisora": 1,
+ 
+  "GrupoAfinidad": 1,
+ 
+  "Nacionalidad": 32,
+ 
+  "TrackingId": "TrackingID Aprepaga Automation", //Seguimiento del plastico - No obligatorio
+ 
+  "TipoTarjeta": 0, // 1 = Virtual - 0 Fisica
+ 
+  "DocumentoOtro": "23356875559", //Cuil sin guion y valida con DNI
+ 
+  "Documento": {
+ 
+  "Tipo": 1, //1 = DNI
+ 
+  "Numero": "35687555" // Nro de documento
+ 
+  },
+ 
+  "Embozado": {
+ 
+  "Nombre": "Automation Selenium",
+ 
+  "CuartaLinea": "CuartaLinea Aprepaga"
+ 
+  },
+ 
+  "Telefono": {
+ 
+  "Particular": "1188888888",//Se graba correctamente en id_domicilio_legal
+ 
+  "Celular": "1199999999",//No se graba
+ 
+  "Correspondencia": "1177777777",//Se graba correctamente en id_domicilio_correspondencia
+ 
+  "Laboral": "1166666666",//No se graba
+ 
+  "Otro": "1155555555"//No se graba
+ 
+  },
+ 
+  "DomicilioParticular": {
+ 
+  "Pais": 32, // 32 - Argentina
+ 
+  "Provincia": 1, // 1: Bs. As
+ 
+  "CodigoPostal": "1722", 
+ 
+  "Calle": "BORRAR",
+ 
+  "Piso": "3",
+ 
+  "Departamento": "A",
+ 
+  "Altura": "536",
+ 
+  "Localidad": "CABA",
+ 
+  "Comentario": "Oficinas GP"
+ 
+  },
+ 
+  "DomicilioCorrespondencia": {
+ 
+  "Pais": 32,
+ 
+  "Provincia": 1,
+ 
+  "CodigoPostal": "1414",
+ 
+  "Calle": "BORRAR",
+ 
+  "Piso": "6",
+ 
+  "Departamento": "C",
+ 
+  "Altura": "1862",
+ 
+  "Localidad": "CABA",
+ 
+  "Comentario": "Casa"
+ 
+  }
+ 
+ }

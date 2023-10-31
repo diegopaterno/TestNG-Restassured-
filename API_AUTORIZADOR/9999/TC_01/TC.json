@@ -1,0 +1,9 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select a.id_entidad, a.id_moneda_origen, a.id_moneda,a.id_estado_tipo, a.id_estado, a.modo_ingreso, a.cod_respuesta, a.cod_pais_comercio, a.cod_pais_emisor, a.id_marca, ael.in_cod_procesamiento 
+from autorizacion a  inner join autorizacion_emisor_log ael on a.id_autorizacion_emisor = ael.id_autorizacion_emisor where a.id_autorizacion_emisor = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA_ORIGEN", "ID_MONEDA", "ID_ESTADO", "MODO_INGRESO", "COD_RESPUESTA", "COD_PAIS_COMERCIO", "COD_PAIS_EMISOR", "ID_MARCA"],
+            "valoresEsperados": [["9999", "32", "32", "41", "0", "01", "00", "ARG", "ARG", "1", "000000"]]
+        }
+    ]
+}

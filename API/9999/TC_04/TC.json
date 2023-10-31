@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select ID_ENTIDAD, ID_moneda from pagos where id_pago = ('{{id_pago}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_moneda"],
+            "valoresEsperados": [["9999", "32"]]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "SELECT ID_CONSUMO, CRITERIO_MAPEO FROM IPM WHERE ID_IPM = ('{{ID_IPM}}')",
+            "camposEsperados": ["ID_CONSUMO", "CRITERIO_MAPEO"],
+            "valoresEsperados": [["", ""]]
+        }
+    ]
+}

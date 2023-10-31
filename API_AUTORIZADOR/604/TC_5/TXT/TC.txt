@@ -1,0 +1,5 @@
+{
+    "tarjetaCompleta": false
+    // true = 16 digitos de tarjeta + CVC encriptados
+    // false = funcionamiento normal sin mostrar CVC
+}
