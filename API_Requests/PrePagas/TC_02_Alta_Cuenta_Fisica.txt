@@ -1,0 +1,51 @@
+{
+    "Nombre": "Automation",
+    "Apellido": "Selenium",
+    "Email": "mauroa.ramirez@globalprocessing.com.ar",
+    "Sexo": "M",
+    "FechaNacimiento": "1988-08-29",
+    "IdCuentaExterna": "",
+    "SucursalEmisora": 1,
+    "GrupoAfinidad": 1,
+    "Nacionalidad": 32,
+    "TrackingId": "TrackingID Aprepaga Automation", 
+    "TipoTarjeta": 0, 
+    "DocumentoOtro": "20324029309",
+    "Documento": {
+        "Tipo": 1,
+        "Numero": "32402930" 
+    },
+    "Embozado": {
+        "Nombre": "Automation Selenium",
+        "CuartaLinea": "CuartaLinea Aprepaga"
+    },
+    "Telefono": {
+        "Particular": "1188888888",
+        "Celular": "1199999999",
+        "Correspondencia": "1177777777",
+        "Laboral": "1166666666",
+        "Otro": "1155555555"
+    },
+    "DomicilioParticular": {
+        "Pais": 32,
+        "Provincia": 1,
+        "CodigoPostal": "1722", 
+        "Calle": "San Martin",
+        "Piso": "3",
+        "Departamento": "A",
+        "Altura": "536",
+        "Localidad": "CABA",
+        "Comentario": "Oficinas GP"
+    },
+    "DomicilioCorrespondencia": {
+        "Pais": 32,
+        "Provincia": 1,
+        "CodigoPostal": "1414",
+        "Calle": "Thames",
+        "Piso": "6",
+        "Departamento": "C",
+        "Altura": "1862",
+        "Localidad": "CABA",
+        "Comentario": "Casa"
+    }
+}

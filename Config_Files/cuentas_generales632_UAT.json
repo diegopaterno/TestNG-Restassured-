@@ -1,0 +1,37 @@
+{
+    "CUENTA_FISICA_1": {
+        "cuenta_fisica": "86",
+        "id_cuenta_externa":"86",
+		"referencia": "7108",
+		"nro_tarjeta": "5406150062377108",
+		"vencimiento": "2702",
+		"id_sucursal_original": "1",
+		"id_grupo_afinidad_original": "1",
+		"id_sucursal_cambio": "2",
+		"id_grupo_afinidad_cambio": "2",
+		"nro_tarjeta_encriptada": "B8CBEC25739221EC08BCC4F3BEE61533",
+		"nro_tarjeta_enmascarada": "54061500XXXX7108"
+    },
+    "CUENTA_FISICA_2": {
+		"cuenta_fisica": "87",
+		"referencia": "9215",
+		"id_tarjeta": "104"
+    },
+    "CUENTA_VIRTUAL_1": {
+        "cuenta_virtual": "88"
+    },
+    "CUENTA_VIRTUAL_2": {
+        "cuenta_virtual": "89",
+		"referencia": "4427",
+		"id_tarjeta": "106"
+    },
+	"CUENTA_VIRTUAL_3": {
+        "cuenta_virtual": "90"
+    },
+    "PARAMETRIA_CUENTAS": {
+        "id_producto": "181",
+        "id_modelo_limite": "10000",
+        "id_persona": "1"
+    }
+}
+

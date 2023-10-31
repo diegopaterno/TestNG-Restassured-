@@ -1,0 +1,16 @@
+{
+	"VALIDACIONESDB": [{
+			"query": "select B.personombre nombre, B.persoape apellido, B.persodocunume dni, B.persoemail email from globalprod.socio A join globalprod.persona B on A.personume = B.personume where  solinume = ('{{idCta}}')",
+			"camposEsperados": ["NOMBRE", "APELLIDO", "DNI", "EMAIL"],
+			"valoresEsperados": [["HOLAMUNDO", "PATER", "288888888", "prueba@gmail.com"]]
+		}
+	],
+	"MTI100": {
+		"aplica": false,
+		"camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+	},
+	"MTI110": {
+		"aplica": false,
+		"camposEsperados": [["41", "5001031"], ["2", "457596______1125"], ["4", "000000055055"]]
+	}
+}

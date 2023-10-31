@@ -1,0 +1,15 @@
+{  
+    "Data1": {  
+        "user":"admin8118",   
+        "pass":"GlobalProc"   
+    },    
+    "Data2": {  
+        "url_go":"https://v2entidad8118.web.qa.global.globalprocessing.net.ar/",   
+        "pass":"GlobalProc#1"
+    },
+    "Data3": {  
+    	"MDL":"Modelo de limite para pruebas automaticas"  
+    }
+}  
+
+

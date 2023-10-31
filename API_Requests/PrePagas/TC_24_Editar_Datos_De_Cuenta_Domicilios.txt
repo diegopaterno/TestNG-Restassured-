@@ -1,0 +1,27 @@
+{
+    "DomicilioParticular": {
+        "Pais": 32,
+        "Provincia": 4,
+        "CodigoPostal": "8887", 
+        "Calle": "Chopin",
+        "Piso": "3",
+        "Departamento": "A",
+        "Altura": "24",
+        "Localidad": "CABA",
+        "Comentario": "Oficinas GP"
+
+    },
+    "DomicilioCorrespondencia": {
+        "Pais": 32,
+        "Provincia": 4,
+        "CodigoPostal": "8887", 
+        "Calle": "Chopin",
+        "Piso": "3",
+        "Departamento": "A",
+        "Altura": "24",
+        "Localidad": "CABA",
+        "Comentario": "Oficinas GP"
+
+    }
+
+}

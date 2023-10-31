@@ -1,0 +1,58 @@
+{
+    "GO": {
+        "user": "admin9999",
+        "pass": "GlobalProc#1",
+        "url_go": "https://v2entidad9999.web.desa.global.globalprocessing.net.ar/"
+    },
+    "GBATCH": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web.desa.global.globalprocessing.net.ar/",
+		"descripcion":"Entidad 9999 - Desarrollo"  
+    },
+    "GBACKEND": {
+        "user": "adminbackend",
+        "pass": "GlobalProc",
+        "url_gbackend": "https://v2backend.web.desa.global.globalprocessing.net.ar/"
+    },
+    "DB": {
+        "user": "desa_entidad9999",
+        "pass": "int_entidad2001",
+        "host": "gp247.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "gp247"
+    },
+    "DBPARAM": {
+        "user": "desa_param",
+        "pass": "int_param01",
+        "host": "parametria-dev.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "PARAMS"
+    },
+    "TOKENPREPAGA": {
+		"base_url": "https://v2entidad9999.api.desa.global.globalprocessing.net.ar/Prepaga",
+		"url_token": "http://sso.globalprocessingdev.com/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "prepagas",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "APREPAID",
+        "client_secret": "45ae46c0-1792-4830-a564-7f09f17edc6a"
+    },
+    "TOKENAUTINTERNO": {
+		"base_url": "https://AutorizadorGw.api.desa.global.globalprocessing.net.ar/api/emision/autorizacion",
+		"url_token": "http://sso.globalprocessingdev.com/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "authorizationnew",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "AUTHORIZATION",
+        "client_secret": "d112bbc7-9879-413a-9105-d1d46886d2a4"
+    },
+    "OPI_CONFIG": {
+		"privateKey": "",
+		"user": "",
+        "host": "",
+        "port": ""
+    },
+	"ENTIDAD":{
+		"id_entidad": "9999"
+	}
+		 
+}

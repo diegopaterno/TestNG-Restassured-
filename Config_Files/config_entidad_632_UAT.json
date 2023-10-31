@@ -1,0 +1,58 @@
+{
+    "GO": {
+        "user": "admin632",
+        "pass": "GlobalProc",
+        "url_go": "https://v2totalcoin.web-uat.globalprocessing.com.ar/"
+    },
+    "GBATCH": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web-uat.globalprocessing.com.ar/",
+		"descripcion":"Total Coin"  
+    },
+    "GBACKEND": {
+        "user": "adminbackend",
+        "pass": "GlobalProc",
+        "url_gbackend": "https://v2backend.web.qa.global.globalprocessing.net.ar/"
+    },
+    "DB": {
+        "user": "UAT_ENTIDAD632",
+        "pass": "UAT_ENTIDAD632$$",
+        "host": "gp632.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "gp632"
+    },
+    "DBPARAM": {
+        "user": "uat_param",
+        "pass": "uatparams1",
+        "host": "parametria-uat.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "PARAMUAT"
+    },
+    "TOKENPREPAGA": {
+		"base_url": "https://v2totalcoin.api-uat.globalprocessing.com.ar/Prepaga",
+		"url_token": "http://sso.uat.globalprocessing.com.ar/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "totalcoinprepaga",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "APREPAID",
+        "client_secret": "45ae46c0-1792-4830-a564-7f09f17edc6a"
+    },
+    "TOKENAUTINTERNO": {
+		"base_url": "http://autorizadorgw.api-uat.globalprocessing.com.ar/Api/Emision/Autorizacion",
+		"url_token": "http://sso.uat.globalprocessing.com.ar/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "authorizationnew",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "AUTHORIZATION",
+        "client_secret": "d112bbc7-9879-413a-9105-d1d46886d2a4"
+    },
+    "OPI_CONFIG": {
+		"privateKey": "./OPI_Files/opiamazon.ppk",
+		"user": "ec2-user",
+        "host": "10.72.0.22",
+        "port": "22"
+    },
+	"ENTIDAD":{
+		"id_entidad": "632"
+	}
+		 
+}

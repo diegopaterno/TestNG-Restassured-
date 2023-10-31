@@ -1,0 +1,225 @@
+body, div {margin:1%;padding:0;}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color:white;
+  font-family:Arial;
+  margin: 3%;
+  color:#aaaaaa;"
+}
+pre {
+  display: block;
+  font-family: Arial;
+  white-space: pre;
+  padding:0;
+  margin: 0;
+  margin-left: 10px;
+}
+.header {
+  background-color:rgba(62, 79, 91, 0.71);
+  padding:0.2px;
+  margin:0;
+  text-align:center;
+  color:white;
+}
+.caso {
+  background-color:rgba(222, 222, 222, 0.87);
+  padding-top:0.1px;
+  padding-bottom:0.1px;
+  text-align:center;
+  color:black;
+}
+.caso a:link {
+  text-decoration:none;
+  color: black;
+}
+.caso a:visited {
+  text-decoration:none;
+  color: black;
+}
+.espacio1 {
+  float:left;
+  padding:10px;
+  text-align: center;
+  width:5%;
+}
+.pasos {
+  padding: 0px;
+  background-color:white;
+  text-align:left;
+  color: darkslategray;
+}
+.pasos a:link{
+  padding:5px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  display:block;
+  color:black;
+  text-decoration: none;
+}
+.pasos a:hover{
+  background-color: #d0d0d0;
+  display:block;
+  color:black;
+  text-decoration: none;
+}
+.pasos a:visited{
+  display:block;
+  color:black;
+  text-decoration: none;
+}
+.passed {
+  border-left: 10px solid green;
+  background-color: rgba(193, 229, 174, 1);
+  font-family:Arial;
+  font-size:small;"
+  padding-left:10px;"
+}
+.blocked {
+  border-left: 10px solid darkgrey;
+  background-color: lightgrey;
+  font-family:Arial;
+  font-size:small;"
+  padding-left:10px;"
+}
+.failed {
+  border-left: 10px solid red;
+  background-color: rgba(255, 229, 230, 0.69);
+  font-family:Arial;
+  font-size:small;"
+  padding-left:10px;"
+}
+.img {
+  float:left;
+  width:100%;
+  padding:10px;
+  text-align: center;
+}
+.espacio2{
+  float:bottom;
+  padding:10px;
+  text-align: center;
+  width:5%;
+}
+.footer {
+  margin-left:70px;
+  margin-right:70px;
+  padding:0;
+}
+.datos {
+  color:#050506;
+  text-decoration: none;
+  background-color: aliceblue;
+  width:100%;
+  opacity:0.8;
+}
+p.tiempo {
+  font-size: xx-small;
+  font-style: italic;}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;}
+.collapsible {
+	  background-color: aliceblue;
+	  cursor: pointer;
+	  padding: 10px;
+	  width: 100%;
+	  border: none;
+	  margin-right: 5px;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	}
+	.active, .collapsible:hover {
+	  background-color: lightblue;
+	}
+.collapsible:after {
+	  content: '\02795';
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	}
+.active:after {
+	  content: '\02796';
+	}
+.collapsibleOK {
+	  background-color: lightgreen;
+	  cursor: pointer;
+	  padding: 10px;
+	  width: 100%;
+	  margin-right: 5px;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	}
+	collapsibleBLOCK.active, .collapsibleOK:hover {
+	  background-color: green;
+	}
+.collapsibleOK:after {
+	  content: '\02795';
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	}
+.collapsibleOK.active:after {
+	  content: '\02796';
+	}
+.collapsibleFAIL {
+	  background-color: rgba(255, 20, 20);
+	  cursor: pointer;
+	  padding: 10px;
+	  width: 100%;
+	  margin-right: 5px;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	}
+	collapsibleBLOCK.active, .collapsibleFAIL:hover {
+	  background-color: rgba(235, 20, 20, 1);
+	}
+.collapsibleFAIL:after {
+	  content: '\02795';
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	}
+	.collapsibleFAIL.active:after {
+	  content: '\02796';
+	}
+.collapsibleBLOCK {
+	  background-color: lightgrey;
+	  cursor: pointer;
+	  padding: 10px;
+	  width: 100%;
+	  margin-right: 5px;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	}
+	collapsibleBLOCK.active, .collapsibleBLOCK:hover {
+	  background-color: grey;
+	}
+.collapsibleBLOCK:after {
+	  content: '\02795';
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	}
+	.collapsibleBLOCK.active:after {
+	  content: '\02796';
+	}
+/*celular*/
+@media only screen and (max-width:620px) {
+  .pasos, .img, .espacio1, .espacio2 {
+    width:100%;}
+}

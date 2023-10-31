@@ -1,0 +1,5 @@
+{
+  "CuartaLinea": "EjCuartaLinea Aprepagas",
+  "TrackingId": "TrackingID Aprepagas",
+  "TipoTarjeta": 0
+}

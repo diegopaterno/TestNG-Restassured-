@@ -1,0 +1,28 @@
+{
+    "DB": {
+        "user": "Consulta",
+        "pass": "Consulta2023!",
+        "host": "gpwf-aq-qa-ent.cunfmyfynl3c.us-east-1.rds.amazonaws.com",
+        "SID": "GP247"
+    },    
+    "TOKENACCESO": {
+		"base_url": "https://GPINF-QA-03.global.globalprocessing.net.ar:44301/GP.IDS/connect/token",
+        "grant_type": "client_credentials",
+        "client_id": "MERCADOLIBREIVR",
+        "client_secret": "secret",
+        "scope":"PrepagaApi"    
+    },
+    "CREARCUENTA":{
+		"base_url": "https://GPINF-QA-03.global.globalprocessing.net.ar:44301",
+		"Authorization": "bearer {{Prepagas_Token}}"
+	},
+    "OPI_CONFIG": {
+		"privateKey": "./OPI_Files/opensshkey.pem",
+		"user": "root",
+        "host": "10.72.0.22",
+        "port": "22"
+    },
+	"ENTIDAD":{
+		"id_entidad": "9999"
+	}	 
+}

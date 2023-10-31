@@ -1,0 +1,5 @@
+{
+    "CodigoConceptoAjuste": 2161,
+    "ImporteAjusteSocio": 1.50,
+    "NumeroComprobante": "711717"
+}

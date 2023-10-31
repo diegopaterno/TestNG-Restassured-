@@ -1,0 +1,12 @@
+{
+  "Importe": {
+    "Monto": 10000,
+    "Moneda": "Local"
+  },
+  "Comprobante": 6444565,
+  "FormaDePago": 1,
+  "Origen": 13,
+  "Sucursal": 1,
+  "Observacion": "Carga por cuenta y producto Aprepaga",
+  "Movimiento": 7
+}

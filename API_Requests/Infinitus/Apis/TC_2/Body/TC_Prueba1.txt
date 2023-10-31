@@ -1,0 +1,52 @@
+{
+  "TipoProducto": 94,
+  "Nombre": "HolaMundo",
+  "Apellido": "Pater",
+  "Documento": {
+    "Tipo": "DNI",
+    "Numero": "288888888"
+  },
+  "DomicilioParticular": {
+    "Calle": "Vilela",
+    "Altura": "1146",
+    "Piso": "4",
+    "Departamento": "A",
+    "CodigoPostal": "1430",
+    "Localidad": "Palermo",
+    "Provincia": 1,
+    "Pais": 32,
+    "Comentario": "Prueba"
+  },
+  "DomicilioCorrespondencia": {
+    "Calle": "Correa",
+    "Altura": "1234",
+    "Piso": "4",
+    "Departamento": "A",
+    "CodigoPostal": "1234",
+    "Localidad": "Correa",
+    "Provincia": 1,
+    "Pais": 32,
+    "Comentario": "Prueba"
+  },
+  "Telefonos": {
+    "Particular": "49042451",
+    "Celular": "1511956633",
+    "Correspondencia": "",
+    "Laboral": "",
+    "Otro": ""
+  },
+  "Email": "prueba@gmail.com",
+  "Sexo": "x",
+  "FechaNacimiento": "1984-01-12",
+  "IdCuentaExterna": "",
+  "SucursalEmisora":1,
+  "GrupoAfinidad":600,
+  "Embozado": {
+    "Nombre": "Hola Mundo",
+    "CuartaLinea": "name"
+  },
+  "Nacionalidad": 32,
+  "TrackingId": "",
+  "TipoTarjeta": 0,
+  "DocumentoOtro": "23240987775"
+}

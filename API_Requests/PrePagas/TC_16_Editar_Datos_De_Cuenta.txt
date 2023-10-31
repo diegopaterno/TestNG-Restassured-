@@ -1,0 +1,12 @@
+{
+    "Nombre": "TC_16_API",            
+    "Apellido": "NO BORRAR",        
+    "Email": "TC16API@gmail.com",   
+    "Sexo": "F",
+    "FechaNacimiento": "1988-08-30",   	
+    "IdCuentaExterna": "{{IDCTAEXT}}", 
+    "SucursalEmisora": 2,          
+    "GrupoAfinidad": 5,            	
+    "Nacionalidad": 276,     
+    "TipoTarjeta": 0
+}

@@ -1,0 +1,58 @@
+{
+    "GO": {
+        "user": "admin632",
+        "pass": "GlobalProc",
+        "url_go": "https://v2totalcoin.web.qa.global.globalprocessing.net.ar/"
+    },
+    "GBATCH": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web.qa.global.globalprocessing.net.ar/",
+		"descripcion":"Entidad 632 - Total Coin"  
+    },
+    "GBACKEND": {
+        "user": "adminbackend",
+        "pass": "GlobalProc",
+        "url_gbackend": "https://v2backend.web.qa.global.globalprocessing.net.ar/"
+    },
+    "DB": {
+        "user": "qa_entidad632",
+        "pass": "int_entidad2001",
+        "host": "gpdbqans.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "GP247"
+    },
+    "DBPARAM": {
+        "user": "qa_param",
+        "pass": "Para_CoNs#sp",
+        "host": "parametria-qa.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "PARAMQA"
+    },
+    "TOKENPREPAGA": {
+		"base_url": "https://v2totalcoin.api.qa.global.globalprocessing.net.ar/Prepaga",
+		"url_token": "http://sso.global.globalprocessing.net.ar/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "totalcoinprepaga",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "APREPAID",
+        "client_secret": "45ae46c0-1792-4830-a564-7f09f17edc6a"
+    },
+    "TOKENAUTINTERNO": {
+		"base_url": "https://AutorizadorGw.api.qa.global.globalprocessing.net.ar/api/emision/autorizacion",
+		"url_token": "http://sso.global.globalprocessing.net.ar/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "authorizationnew",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "AUTHORIZATION",
+        "client_secret": "d112bbc7-9879-413a-9105-d1d46886d2a4"
+    },
+    "OPI_CONFIG": {
+		"privateKey": "./OPI_Files/opiamazon.ppk",
+		"user": "ec2-user",
+        "host": "10.72.0.22",
+        "port": "22"
+    },
+	"ENTIDAD":{
+		"id_entidad": "632"
+	}
+		 
+}

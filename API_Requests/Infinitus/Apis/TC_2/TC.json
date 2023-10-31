@@ -1,0 +1,17 @@
+{
+	"VALIDACIONESDB": [
+		{
+		"query": "select solinume, tarjenume from globalprod.tarjetapadron where solinume = {{idCta}}",
+        "camposEsperados": ["SOLINUME", "TARJENUME"],
+        "valoresEsperados": [["10003744", "30DB76C2A44BDB49E88AD8C1E2AD1E5E"]]
+		}
+	    ],
+	"MTI100": {
+		"aplica": false,
+		"camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+		},
+	"MTI100": {
+		"aplica": false,
+		"camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+		}
+}
